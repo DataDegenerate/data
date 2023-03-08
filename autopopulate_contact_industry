@@ -6,7 +6,7 @@ input_data = {'c_id': '326342038',
 import requests as r
 
 # Insightly Credentials
-username = '55fcf3d5-8053-4875-b632-14d5081b60b6'
+username = 'hidden'
 password = ''
 
 # Input Data
