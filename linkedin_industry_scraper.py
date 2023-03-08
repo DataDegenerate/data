@@ -9,10 +9,8 @@ pause_time = random.randint(15, 30)
 pause_time2 = random.randint(5, 10)
 
 # # Get past LinkedIn authentication wall
-# driver = webdriver.Chrome('/Users/alex/Downloads/chromedriver')
-# actions.login(driver, email='kawaiipandas@yahoo.com', password='Ale123yan')
-# # actions.login(driver, email='alexyan.isnt@gmail.com', password='#Swagmaster@13x')
-# # actions.login(driver, email='meiko@inawe.com', password='Hello123')
+# driver = webdriver.Chrome('chromedriver')
+# actions.login(driver, email='xxx@yahoo.com', password='xxx')
 # print(f'''URL: {driver.command_executor._url}
 # session ID: {driver.session_id}''')
 
