@@ -1,3 +1,5 @@
+# This custom code is used with Zapier to automatically link a related 'Industry' field in the Insightly CRM
+
 from pprint import pprint
 
 input_data = {'c_id': '326342038',
