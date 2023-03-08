@@ -1,3 +1,5 @@
+# This program was created to assist in transforming raw survey data into a formatted csv that can be imported into a database
+
 import openpyxl as xl
 import csv
 from pprint import pprint
