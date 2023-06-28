@@ -21,9 +21,9 @@ driver.session_id = 'd8d251f108f0523b0e801a06b73d51ae'
 wait = WebDriverWait(driver, 10)
 
 # Reference spreadsheet
-wb = openpyxl.load_workbook('/Users/alex/Downloads/Current Orgs.xlsx')
+wb = openpyxl.load_workbook('Current Orgs.xlsx')
 sheet = wb['Data']
-new_file = open('/Users/alex/Downloads/Organizations Industries Scraped.csv', 'w', newline='')
+new_file = open('Organizations Industries Scraped.csv', 'w', newline='')
 nf_writer = csv.DictWriter(new_file, ['Organization ID', 'Organization Name', 'LinkedIn Profile', 'Industry', 'LI Industry'])
 nf_writer.writeheader()
 
